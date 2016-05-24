@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:IOS7--QRCode/IOS7--QRCode.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:IOS7--Animation/IOS7--Animation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:IOS7--ImageFilter/IOS7--ImageFilter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:IOS7-3DMap/IOS7-3DMap.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:IOS7-SpeechSynthesis/IOS7-SpeechSynthesis.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:IOS7-DynamicBehavors/IOS7-DynamicBehavors.xcodeproj">
+   </FileRef>
+</Workspace>
