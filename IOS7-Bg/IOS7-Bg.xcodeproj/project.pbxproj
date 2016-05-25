@@ -15,6 +15,12 @@
 		FD7009ED1CF544630088CBED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7009EB1CF544630088CBED /* LaunchScreen.storyboard */; };
 		FD7009F81CF544640088CBED /* IOS7_BgTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7009F71CF544640088CBED /* IOS7_BgTests.m */; };
 		FD700A041CF548360088CBED /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD700A031CF548360088CBED /* DetailViewController.m */; };
+		FD700A101CF57A2D0088CBED /* navViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD700A0F1CF57A2D0088CBED /* navViewController.m */; };
+		FD700A131CF57AF90088CBED /* FadeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FD700A121CF57AF90088CBED /* FadeTransition.m */; };
+		FD700A161CF581900088CBED /* FlipAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD700A151CF581900088CBED /* FlipAnimation.m */; };
+		FD700A191CF5821B0088CBED /* FlipAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD700A181CF5821B0088CBED /* FlipAnimationViewController.m */; };
+		FD700A1C1CF582F40088CBED /* FlipAnimationInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = FD700A1B1CF582F40088CBED /* FlipAnimationInteractor.m */; };
+		FD700A1F1CF585FB0088CBED /* ModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD700A1E1CF585FB0088CBED /* ModeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +49,18 @@
 		FD7009F91CF544640088CBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD700A021CF548360088CBED /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		FD700A031CF548360088CBED /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FD700A0E1CF57A2D0088CBED /* navViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = navViewController.h; sourceTree = "<group>"; };
+		FD700A0F1CF57A2D0088CBED /* navViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = navViewController.m; sourceTree = "<group>"; };
+		FD700A111CF57AF90088CBED /* FadeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeTransition.h; sourceTree = "<group>"; };
+		FD700A121CF57AF90088CBED /* FadeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeTransition.m; sourceTree = "<group>"; };
+		FD700A141CF581900088CBED /* FlipAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipAnimation.h; sourceTree = "<group>"; };
+		FD700A151CF581900088CBED /* FlipAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipAnimation.m; sourceTree = "<group>"; };
+		FD700A171CF5821B0088CBED /* FlipAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipAnimationViewController.h; path = ../FlipAnimationViewController.h; sourceTree = "<group>"; };
+		FD700A181CF5821B0088CBED /* FlipAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipAnimationViewController.m; path = ../FlipAnimationViewController.m; sourceTree = "<group>"; };
+		FD700A1A1CF582F40088CBED /* FlipAnimationInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipAnimationInteractor.h; path = ../FlipAnimationInteractor.h; sourceTree = "<group>"; };
+		FD700A1B1CF582F40088CBED /* FlipAnimationInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipAnimationInteractor.m; path = ../FlipAnimationInteractor.m; sourceTree = "<group>"; };
+		FD700A1D1CF585FB0088CBED /* ModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeViewController.h; sourceTree = "<group>"; };
+		FD700A1E1CF585FB0088CBED /* ModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +84,8 @@
 		FD7009D11CF544630088CBED = {
 			isa = PBXGroup;
 			children = (
+				FD700A1D1CF585FB0088CBED /* ModeViewController.h */,
+				FD700A1E1CF585FB0088CBED /* ModeViewController.m */,
 				FD7009DC1CF544630088CBED /* IOS7-Bg */,
 				FD7009F61CF544640088CBED /* IOS7-BgTests */,
 				FD7009DB1CF544630088CBED /* Products */,
@@ -88,6 +108,8 @@
 				FD7009E11CF544630088CBED /* AppDelegate.m */,
 				FD7009E31CF544630088CBED /* ViewController.h */,
 				FD7009E41CF544630088CBED /* ViewController.m */,
+				FD700A171CF5821B0088CBED /* FlipAnimationViewController.h */,
+				FD700A181CF5821B0088CBED /* FlipAnimationViewController.m */,
 				FD7009E61CF544630088CBED /* Main.storyboard */,
 				FD7009E91CF544630088CBED /* Assets.xcassets */,
 				FD7009EB1CF544630088CBED /* LaunchScreen.storyboard */,
@@ -95,6 +117,14 @@
 				FD7009DD1CF544630088CBED /* Supporting Files */,
 				FD700A021CF548360088CBED /* DetailViewController.h */,
 				FD700A031CF548360088CBED /* DetailViewController.m */,
+				FD700A0E1CF57A2D0088CBED /* navViewController.h */,
+				FD700A0F1CF57A2D0088CBED /* navViewController.m */,
+				FD700A111CF57AF90088CBED /* FadeTransition.h */,
+				FD700A121CF57AF90088CBED /* FadeTransition.m */,
+				FD700A1A1CF582F40088CBED /* FlipAnimationInteractor.h */,
+				FD700A1B1CF582F40088CBED /* FlipAnimationInteractor.m */,
+				FD700A141CF581900088CBED /* FlipAnimation.h */,
+				FD700A151CF581900088CBED /* FlipAnimation.m */,
 			);
 			path = "IOS7-Bg";
 			sourceTree = "<group>";
@@ -223,8 +253,14 @@
 			files = (
 				FD7009E51CF544630088CBED /* ViewController.m in Sources */,
 				FD7009E21CF544630088CBED /* AppDelegate.m in Sources */,
+				FD700A191CF5821B0088CBED /* FlipAnimationViewController.m in Sources */,
 				FD7009DF1CF544630088CBED /* main.m in Sources */,
 				FD700A041CF548360088CBED /* DetailViewController.m in Sources */,
+				FD700A1F1CF585FB0088CBED /* ModeViewController.m in Sources */,
+				FD700A131CF57AF90088CBED /* FadeTransition.m in Sources */,
+				FD700A101CF57A2D0088CBED /* navViewController.m in Sources */,
+				FD700A1C1CF582F40088CBED /* FlipAnimationInteractor.m in Sources */,
+				FD700A161CF581900088CBED /* FlipAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

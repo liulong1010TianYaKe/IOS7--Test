@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "FlipAnimationViewController.h"
 
 @interface DetailViewController ()
 
@@ -17,8 +18,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor cyanColor];
+    
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(100, 200, 200, 44);
+    [button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [button setTitle:@"FlideAnimaton" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
 }
 
+
+
+- (void)btnAction:(UIButton *)btn{
+    FlipAnimationViewController *VC = [[FlipAnimationViewController alloc] init];
+    [self.navigationController pushViewController:VC animated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

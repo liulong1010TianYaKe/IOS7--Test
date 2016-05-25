@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+@import SafariServices;
+
 @interface ViewController ()
 
 @end
@@ -19,6 +21,18 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor redColor];
     
+    
+    
+    if ([SSReadingList supportsURL:[NSURL URLWithString:@"https://www.baidu.com/index.php?tn=monline_3_dg"]]) {
+        SSReadingList *readingList = [SSReadingList defaultReadingList];
+        NSError *error;
+        [readingList addReadingListItemWithURL:[NSURL URLWithString:@"https://www.baidu.com/index.php?tn=monline_3_dg"] title:@"baidu" previewText:@"baidu shou ye" error:&error];
+        if(error) {
+            NSLog(@"There was a problem adding to a reading list");
+        } else {
+            NSLog(@"Successfully added to reading list");
+        }
+    }
    
     
 }
@@ -35,7 +49,7 @@
 }
 
 - (BOOL)prefersStatusBarHidden{
-    return YES;
+    return NO;
 }
 
 - (UIStatusBarAnimation)preferredStatusBarUpdateAnimation{

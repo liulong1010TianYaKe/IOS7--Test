@@ -54,12 +54,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SER-oF-Nt4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1545" y="450"/>
+            <point key="canvasLocation" x="1526" y="404"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Nav View Controller-->
         <scene sceneID="yd1-ml-M1u">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ubG-IU-wQi" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ubG-IU-wQi" customClass="navViewController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9G4-PB-uJs">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
