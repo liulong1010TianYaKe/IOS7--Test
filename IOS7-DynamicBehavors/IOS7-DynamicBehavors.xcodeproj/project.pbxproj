@@ -404,6 +404,7 @@
 				FD1D05451CF2AE3200EA6DE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD1D05461CF2AE3200EA6DE8 /* Build configuration list for PBXNativeTarget "IOS7-DynamicBehavorsTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +413,7 @@
 				FD1D05481CF2AE3200EA6DE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

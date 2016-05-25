@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:IOS7-Bg/IOS7-Bg.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:IOS7--QRCode/IOS7--QRCode.xcodeproj">
    </FileRef>
    <FileRef
@@ -18,5 +21,8 @@
    </FileRef>
    <FileRef
       location = "group:IOS7-DynamicBehavors/IOS7-DynamicBehavors.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:IOS7-DynamicBehavors/../05-uidynamics-collectionview/SpringyCarousel/SpringyCarousel.xcodeproj">
    </FileRef>
 </Workspace>
